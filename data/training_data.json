@@ -1,0 +1,281 @@
+{
+  "intents": [
+
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hi",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hey",
+        "is anyone there",
+        "can you help me",
+        "hello computer science department"
+      ],
+      "responses": [
+        "Hello! How can I assist you with Department of Computer Science information?",
+        "Hi! What would you like to know about the Computer Science department?"
+      ]
+    },
+
+    {
+      "tag": "levels",
+      "patterns": [
+        "what levels are in computer science",
+        "how many levels are in computer science",
+        "computer science levels",
+        "levels in the department"
+      ],
+      "responses": [
+        "The Department of Computer Science runs from 100 level to 400 level."
+      ]
+    },
+
+    {
+      "tag": "courses_general",
+      "patterns": [
+        "computer science courses",
+        "courses offered in computer science",
+        "what courses do computer science students offer",
+        "computer science subjects",
+        "departmental courses"
+      ],
+      "responses": [
+        "Computer Science students offer various core and elective courses depending on their level. Course details are provided by the department each session."
+      ]
+    },
+
+    {
+      "tag": "course_registration",
+      "patterns": [
+        "how do i register my courses",
+        "course registration process",
+        "where do i register my courses",
+        "problem with course registration",
+        "course registration steps"
+      ],
+      "responses": [
+        "Course registration is done through the ICT unit after payment of required fees. Students are also expected to complete departmental processes where applicable."
+      ]
+    },
+
+    {
+      "tag": "dues",
+      "patterns": [
+        "departmental dues",
+        "faculty dues",
+        "nacos dues",
+        "how much is departmental dues",
+        "how much is nacos",
+        "where do i pay dues",
+        "remita payment"
+      ],
+      "responses": [
+        "Departmental and faculty dues are paid through Remita. NACOS dues are paid at the secretariat table. Please confirm current amounts from the department."
+      ]
+    },
+
+    {
+      "tag": "siwes",
+      "patterns": [
+        "what is siwes",
+        "siwes information",
+        "industrial training",
+        "siwes requirements",
+        "when is siwes",
+        "siwes in computer science"
+      ],
+      "responses": [
+        "SIWES is the Students Industrial Work Experience Scheme. It is a compulsory industrial training program for eligible Computer Science students."
+      ]
+    },
+
+    {
+      "tag": "projects",
+      "patterns": [
+        "final year project",
+        "project defense",
+        "project supervision",
+        "how to choose a project topic",
+        "computer science project",
+        "project requirements"
+      ],
+      "responses": [
+        "Final year students are required to carry out and defend a project under the supervision of an assigned lecturer."
+      ]
+    },
+
+    {
+      "tag": "project_defense",
+      "patterns": [
+        "when is project defense",
+        "project proposal defense",
+        "final project defense",
+        "how is project defense done",
+        "project presentation"
+      ],
+      "responses": [
+        "Project defense schedules and guidelines are communicated by the department. Students are advised to stay updated through official channels."
+      ]
+    },
+
+    {
+      "tag": "exams_general",
+      "patterns": [
+        "exam information",
+        "computer science exams",
+        "how are exams conducted",
+        "exam rules",
+        "exam guidelines"
+      ],
+      "responses": [
+        "Examinations are conducted according to university and departmental regulations. Students should adhere strictly to exam guidelines."
+      ]
+    },
+
+    {
+      "tag": "missed_exam_test",
+      "patterns": [
+        "i missed a test",
+        "what happens if i miss an exam",
+        "missed continuous assessment",
+        "absent from test",
+        "missed exam"
+      ],
+      "responses": [
+        "Students who miss tests or examinations should report to the department or course lecturer for proper guidance."
+      ]
+    },
+
+    {
+      "tag": "carry_over",
+      "patterns": [
+        "what is carry over",
+        "carry over course",
+        "failed a course",
+        "how to repeat a course",
+        "carryover in computer science"
+      ],
+      "responses": [
+        "A carry over occurs when a student fails a course and is required to repeat it in a subsequent academic session."
+      ]
+    },
+
+    {
+      "tag": "timetable",
+      "patterns": [
+        "lecture timetable",
+        "exam timetable",
+        "computer science timetable",
+        "where can i find timetable",
+        "timetable pdf"
+      ],
+      "responses": [
+        "Lecture and examination timetables are provided online by the department. Students are advised to regularly check the official platform."
+      ]
+    },
+
+    {
+      "tag": "lecturers_general",
+      "patterns": [
+        "computer science lecturers",
+        "who are the lecturers",
+        "department lecturers",
+        "list of lecturers",
+        "lecturers in computer science"
+      ],
+      "responses": [
+        "The Department of Computer Science has qualified lecturers handling different courses across all levels."
+      ]
+    },
+
+    {
+      "tag": "offices",
+      "patterns": [
+        "hod office",
+        "departmental office",
+        "exam officer",
+        "where is the department office",
+        "computer science office"
+      ],
+      "responses": [
+        "You can visit the Department of Computer Science office for official inquiries during working hours."
+      ]
+    },
+
+    {
+      "tag": "clearance",
+      "patterns": [
+        "departmental clearance",
+        "faculty clearance",
+        "clearance process",
+        "how to do clearance",
+        "clearance requirements"
+      ],
+      "responses": [
+        "Departmental and faculty clearance procedures are communicated by the department. Ensure all required payments and documents are completed."
+      ]
+    },
+
+    {
+      "tag": "graduation",
+      "patterns": [
+        "graduation requirements",
+        "how to graduate",
+        "graduation process",
+        "computer science graduation",
+        "eligible for graduation"
+      ],
+      "responses": [
+        "Students must complete all required courses, projects, and departmental obligations to be eligible for graduation."
+      ]
+    },
+
+    {
+      "tag": "contact",
+      "patterns": [
+        "how do i contact the department",
+        "department contact",
+        "computer science contact",
+        "who can i talk to",
+        "need help from department"
+      ],
+      "responses": [
+        "You can contact the Department of Computer Science through the departmental office or official communication channels."
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "thank you",
+        "thanks",
+        "see you later",
+        "exit"
+      ],
+      "responses": [
+        "You're welcome. Feel free to ask if you need more information.",
+        "Goodbye! Best of luck with your studies."
+      ]
+    },
+
+    {
+      "tag": "unknown",
+      "patterns": [
+        "random question",
+        "something else",
+        "i dont understand",
+        "can you do that",
+        "tell me my result"
+      ],
+      "responses": [
+        "I'm sorry, I don't have information on that. Please contact the Department of Computer Science office for assistance."
+      ]
+    }
+
+  ]
+}
